@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+  <title>FoodForYou</title>
+</head>
+
+<body class="mb-2">
+  <header class="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Food For You</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto d-flex align-items-center" id="nav-ul">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#offering">Offering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#special">Special</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#offering">Offering</a></li>
+                <li><a class="dropdown-item" href="#special">Special</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                <li><a class="dropdown-item" href="#app">App</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#offering">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal-1">
+                  Book A Table
+                </button>
+                <!-- <button class="btn btn-success">Sign up</button> -->
+              </a>
+               <!-- Button trigger modal -->
+            
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="p-5 mt-5" id="main">
+      <div class="row">
+        <div class="col-md-6 text-light" >
+          <h1 class="text-success">Tasty Food</h1>
+          <h2>Try the best food of <br>
+            the week.</h2>
+          <button class="btn btn-success">View Menu</button>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </section>
+  </header>
+
+  <!-- main part -->
+  <main>
+
+    <!-- about us -->
+    <section class="container mt-5">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 col-7">
+          <!-- <img src="img/2.jfif" alt="" class="d-block w-50"> -->
+          <img src='img/fc1.jpg'  class="d-block w-100" alt="...">
+        </div>
+        <div class="col-md-6 col-5">
+          <h6>About Us</h6>
+          <h1>We cook the best <br>
+            tasty food</h1>
+          <p>
+            We cook the best food in the entire city, with excellent customer service, the best meals and at the best
+            price, visit us.
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+            Explore History
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <div class="container mt-5 mb-5"><hr></div>
+    <section id="offering" class="mt-5 bg-secondary p-5">
+      <h5 class="text-center">Offering</h5>
+      <h1 class="text-center">Our amazing services</h1>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col ">
+            <div class="card h-100">
+              <img src="img/meal.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Fast food</h5>
+                <p class="card-text">We offer our clients excellent quality services for many years, with the best and
+                  delicious food in the city.</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/food.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Excellent food</h5>
+                <p class="card-text">
+                  We offer our clients excellent quality services for many years, with the best and delicious food in
+                  the city.
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/delivery.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Delivery</h5>
+                <p class="card-text">We offer our clients excellent quality services for many years, with the best and
+                  delicious food in the city.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- special -->
+    <div class="container mt-5 mb-5 "><hr></div>
+    <section id="special" class="mt-5 ">
+      <h5 class="text-center">Special</h5>
+      <h1 class="text-center">Menu Of The Week</h1>
+      <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-lg rounded">
+              <!-- <img src="" class="card-img-top" alt="..."> -->
+              <img src="img/fs.jpg"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Barbecue salad</h5>
+                <h6>Delicious dish</h6>
+              </div>
+              <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg rounded">
+              <img src="img/fs.jpg"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Salad with fish</h5>
+                <h6>Delicious dish</h6>
+              </div>
+              <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg rounded">
+              <img src="img/fs.jpg"  class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Spinach salad</h5>
+                <h6>Delicious dish</h6>
+              </div>
+              <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- app -->
+<div class="container mt-5 mb-5"><hr></div>
+    <section id="app" class="container mt-5  p-2">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-7">
+          <img src="img/app.png" alt="" class="d-block w-100 ">
+        </div>
+        <div class="col-md-5">
+          <h6>App</h6>
+          <h1>App is now AVIABLE!!!</h1>
+          <p>
+            Find our application and download it, you can make reservations, food orders, see your deliveries on the way
+            and much more.
+          </p>
+          <button class="btn btn-success">Download app</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <div class="container mt-5 mb-5"><hr></div>
+    <section id="contact" class=" mt-5 p-5 bg-secondary ">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-7">
+          <h6>Lets Talk</h6>
+          <h1>Contact Us</h1>
+          <p>
+            If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7
+            chat service.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <div class="d-flex align-items-center justify-content-center">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Contact us now
+            </button>
+            <!-- <button class="btn btn-lg btn-success"></button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- modal -->
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label  bg-transparent " required>Email address</label>
+              <input type="email" class="form-control  bg-transparent " id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text bg-transparent ">Tell us your opinion</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-success" data-bs-dismiss="modal" onclick="successMsg()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- modal -->
+
+  <!-- Modal SignUp -->
+  <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Book A table</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <form>
+            <div class="input-group">
+              <span class="input-group-text">Name</span>
+              <input type="text" aria-label="name" class="form-control">
+            </div>
+            <br>
+            <div class="input-group">
+              <span class="input-group-text">Number</span>
+              <input type="number" aria-label="number" class="form-control" >
+            </div>
+
+            <br>
+            <div class="input-group">
+              <span class="input-group-text">Tables</span>
+              <input type="number" aria-label="number" class="form-control" >
+            </div>
+            <br>
+            <div class="input-group">
+              <span class="input-group-text">Time</span>
+              <input type="datetime" aria-label="number" class="form-control" >
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-success" data-bs-dismiss="modal" onclick="successMsg()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal SignUp -->
+
+  <!-- Modal History -->
+  <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">History</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body mbg">
+         <p>
+          Placeholder text for this demonstration of a vertically centered modal dialog.
+
+          In this case, the dialog has a bit more content, just to show how vertical centering can be added to a scrollable modal.
+          
+          What follows is just some placeholder text for this modal dialog. Sipping on Rosé, Silver Lake sun, coming up all lazy. It’s in the palm of your hand now baby. So we hit the boulevard. So make a wish, I'll make it like your birthday everyday. Do you ever feel already buried deep six feet under? It's time to bring out the big balloons. You could've been the greatest. Passport stamps, she's cosmopolitan. Your kiss is cosmic, every move is magic.
+          
+          We're living the life. We're doing it right. Open up your heart. I was tryna hit it and quit it. Her love is like a drug. Always leaves a trail of stardust. The girl's a freak, she drive a jeep in Laguna Beach. Fine, fresh, fierce, we got it on lock. All my girls vintage Chanel baby.
+         </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="submit" class="btn btn-success" data-bs-dismiss="modal" onclick="successMsg()">Submit</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal History -->
+
+  <footer class="p-3 pb-0 mt-5">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>Tasty Food</h5>
+        <p>Resturant</p>
+        <a href="#" class="p-2"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="p-2"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="p-2"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <h5>Services</h5>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Fast Food</a></li>
+          <li><a href="#">Reserve your spot</a></li>
+        </ul>
+
+
+
+
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <h5>Information</h5>
+          <li><a href="#">Event</a></li>
+          <li> <a href="#">Contact us</a></li>
+          <li><a href="#">Privecy policy</a></li>
+          <li> <a href="#">Terms of services</a></li>
+        </ul>
+
+
+
+
+      </div>
+      <div class="col-md-3">
+        <h5>Adress</h5>
+        <p>
+          Lima - Peru <br>
+          Jr Union #999 <br>
+          999 - 888 - 777 <br>
+          tastyfood@email.com
+        </p>
+      </div>
+    </div>
+    <p class="text-center">© 2021 Farhan Eshrak. All right reserved</p>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="fontawesome-free-5.15.1-web/js/all.js"></script>
+
+  <!-- swal -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script>
+const successMsg = ()=>{
+  Swal.fire(
+  'Good job!',
+  'You clicked the button!',
+  'success'
+)
+}
+</script>
+
+
+
+<!-- <script src="sweetalert2.all.min.js"></script> -->
+<!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+</body>
+
+</html>
